@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    padding: 80px;
+    overflow: hidden; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.left-section {
+    max-width: 45%; 
+}
+
+.left-section h1 {
+    font-size: 36px; 
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.left-section p {
+    font-size: 14px; /* Adjusted font-size */
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.menu-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.right-section {
+    max-width: 35%; /* Reduced width for the bowl image */
+}
+
+.bowl-image {
+    max-width: 100%;
+    max-height: 300px; /* Reduced the height of the bowl image */
+    border-radius: 50%;
+}
+
+/* Styling for the 3 decorative images section */
+.decorative-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align to the left */
+    margin-bottom: 20px; /* Reduced margin */
+}
+
+.decorative-item {
+    margin-right: 10px; /* Reduced margin between images */
+}
+
+.decorative-item img {
+    width: 110px; /* Adjust size */
+    height: 160px; /* Adjust size */
+    border-radius: 30px; /* Circular images */
+}
+
+/* Chef Section Styling */
+.chef-section {
+    text-align: right; /* Right-align text and images */
+    background-color: hsl(0, 50%, 100%); /* Highlighted background color */
+    padding: 25px;
+    border-radius: 0px;
+    margin-top: -130px;
+}
+
+.chef-details {
+    margin-bottom: 25px; /* Space between text and images */
+}
+
+.chef-details h3 {
+    font-size: 22px;
+    font-weight: 50px;
+    margin-bottom: 3px; /* Reduced margin for better fit */
+    text-align: right; /* Right-align the heading */
+}
+.chef-details p {
+    font-size: 14px;
+    color: #333;
+    text-align: right; /* Right-align the paragraph */
+}
+
+.ingredients {
+    display: flex;
+    justify-content: flex-end; /* Align images to the right */
+}
+
+.ingredients img {
+    width: 40px; /* Adjusted size */
+    height: 40px;
+    margin: 0 8px; /* Adjusted spacing */
+    border-radius: 50%; /* Make the images circular */
+}
